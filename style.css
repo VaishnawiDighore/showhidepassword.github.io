@@ -1,0 +1,67 @@
+/* Code By Webdevtrick ( https://webdevtrick.com ) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+   }
+   body {
+    background: #EEE
+   }
+   .container {
+    width: 400px;
+    height: 470px;
+    margin: 30px auto 0;
+    padding-top: 50px;
+    background: #120a63;
+    border-radius: 5px;
+    border: 2px solid #d80e0e;
+    color: #fff
+   }
+   .container>div {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+   }
+   .container .title {
+    display: block;
+    font-size: 30px;
+    font-family: sans-serif;
+    height: 30px;
+    padding-bottom: 80px;
+   }
+   .container>div input[type='password'],
+   input[type='text'] {
+    width: 65%;
+    height: 45px;
+    background: #77b2d6;
+    margin: 10px auto 0;
+    padding: 5px 40px 5px 10px;
+    display: block;
+    font-size: 22px;
+    font-family: sans-serif;
+    border: 2px solid #1fe291;
+    outline: nfirst;
+    border-radius: 3px;
+    color: #fff
+   }
+   .container>div .group {
+    display: block;
+    height: 40px;
+    text-align: left;
+    padding-left: 70px;
+    padding-top: 10px;
+    font: 17px sans-serif, bold;
+    position: relative;
+   }
+   .container>div .group .label {
+    position: absolute;
+    bottom: 11px;
+    left: 88px;
+    padding-top: 10px;
+   }
+   .container>div .group input[type='checkbox'] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer
+   }
+   
